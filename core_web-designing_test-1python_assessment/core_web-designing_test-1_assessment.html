@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="/favicon.png">
+   <link rel="stylesheet" href="/core_web-designing_test-1_assessment.css">
+</head>
+<body>
+    <center>
+        <h2>Registration Form</h2>
+    </center>
+   <div class="main">
+    <form action="post">
+        <div class="part">
+            <label for="">First Name:</label>
+            <input type="text" placeholder="Enter your first name" required pattern="[a-zA-Z]{3,6}" title="minimum 3 & max 6 alphabets..!">
+        </div>
+        <div class="part">
+            <label for="">Last Name:</label>
+            <input type="text" placeholder="Enter your Last name" required pattern="[a-zA-Z]{3,6}" title="minimum 3 & max 6 alphabets..!">
+        </div>
+        <div class="part">
+            <label for="">Email:</label>
+            <input type="email" name="email" placeholder="it should contain @.." required>
+        </div>
+        <div class="part">
+            <label for="">Mobile:</label>
+            <input type="text" name="mobile" placeholder="only 10 digits are allowed" required pattern="[0-9 9-0]" title="Only 10 Digits..!">
+        </div>
+        <div class="gender">
+                <label for="">Gender:</label>
+                <input type="radio" value="Male" name="gender" required>Male<input type="radio" value="Female"  name="gender" required>Female
+        </div>
+        <div class="part">
+            <label for="">Date Of Birth:</label>
+            <input type="date" name="dob" required>
+        </div>
+        <div class="part">
+            <label for="">Address:</label>
+            <textarea name="address" id="" cols="30" rows="5" required></textarea>
+        </div>
+        <div class="part">
+            <label for="">City:</label>
+            <input type="text" name="city" required>
+        </div>
+        <div class="part">
+            <label for="">Area PIN:</label>
+            <input type="text" name="areapin" required>
+        </div>
+        <div class="part">
+            <label for="">State:</label>
+            <input type="text" name="state" required>
+        </div>
+        <div class="part">
+            <label for="">Qualification:</label>
+            <select name="qualification" id="" required>
+                <option value="" hidden>Select Qualification</option>
+                <option value="">BE</option>
+                <option value="">B.Tech</option>
+                <option value="">BCA</option>
+                <option value="">BSC IT</option>
+            </select>
+        </div>
+        <div class="specialization">
+            <div class="speci"><label for="">Specialization:</label></div>
+         <div class="select" >
+            <input type="checkbox">Computer Science
+            <input type="checkbox">Information Technology
+            <input type="checkbox">Computer Architecture
+            <input type="checkbox">Tele Communication
+         </div>
+        </div>
+        <div class="part">
+            <label for="">Password:</label>
+            <input type="password" name="password" required title="min 5 & max8">
+        </div>
+        <button>Registered</button>
+    </form>
+   </div>
+</body>
+</html>
+
+
+<!-- <div class="cs"><input type="checkbox">Computer Science</div>
+           <div class="it"> <input type="checkbox">Information Technology</div>
+            <input type="checkbox">Computer Architecture
+            <input type="checkbox">Tele Communication -->
+
+
+            <!-- Computer Architecture
+            Tele Communication
+            Computer Architecture
+            Tele Communication -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <form action="">
+        
+        <center>
+            <h1>
+                Student Registration Form
+            </h1>
+        </center>
+        <div>
+            <ul>
+                <li class="info">First Name:</li>
+                <li class="info">Last Name:</li>
+                <li class="info">Email:</li>
+                <li class="info">Mobile:</li>
+                <li class="info">Gender:</li>
+                <li class="info">Date Of Birth:</li>
+                <li class="info">Address:</li>
+                <li class="info">City:</li>
+                <li class="info">Area Pin:</li>
+                <li class="info">State:</li>
+                <li class="info">Qualification:</li>
+                <li class="info">Specilization:</li>
+                <li class="info">Password:</li>
+            </ul>
+            <ul>
+                <li class="inp"><input type="text" placeholder="Enter your first name"></li>
+                <li class="inp"><input type="text" placeholder="Enter your last name"></li>
+                <li class="inp"><input type="text" placeholder="it should contain @.."></li>
+                <li class="inp"><input type="text" placeholder="only 10 digits are allowed"></li>
+                <li class="inp"><input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                </li>
+                <li class="inp"><input type="date" value=""></li>
+                <li class="inp"><textarea name="" id="" cols="30" rows="5"></textarea></li>
+                <li class="inp"><input type="text" value=""></li>
+                <li class="inp"><input type="text" value=""></li>
+                <li class="inp"><input type="text" value=""></li>
+                <li class="inp"><input type="text" value=""></li>
+                <li class="inp"><input type="text" value=""></li>
+                <li class="inp"><input type="text" value=""></li>
+            </ul>
+        </div>
+           
+    </form>
+</body>
+</html> -->
+<!-- <li>First Name:</li><input type="text" value="Enter your first name">
+<li>Last Name:</li>
+</div>
+<br><br>
+
+
+<input type="text" value="Enter your last name"><br><br>
+
+<span>Email:</span>
+<input type="text" value="it should contain @.."><br><br>
+
+<span>Mobile:</span>
+<input type="text" value="only 10 digits are allowed"><br><br>
+<label for="mann">man:</label><input type="text" value="man"> --> -->
