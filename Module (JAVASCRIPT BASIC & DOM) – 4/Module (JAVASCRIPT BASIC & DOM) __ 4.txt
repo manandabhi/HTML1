@@ -1,75 +1,171 @@
-Q•1=> What is JavaScript? 
-Ans=> JavaScript is a scripting language for creating dynamic web page content. It creates elements for improving site visitors' interaction with web pages, such as dropdown menus, animated graphics, and dynamic background colors.
+Q-1==>What is Java Script?
+Ans..
+-->JavaScript is the Programming Language for the Web.
+
+-->JavaScript can update and change both HTML and CSS.
+
+-->JavaScript can calculate, manipulate and validate data.
+
+Q-2==>What is the use of isNaN function?
+Ans..
+    The JavaScript isNaN() Function is used to check whether a given value is an illegal number or not.
+     It returns true if the value is a NaN else returns false. It is different from the Number.
 
 
-Q•2=> What is the use of isNaN function? 
-Ans=> The JavaScript isNaN() Function is used to check whether a given value is an illegal number or not. It returns true if the value is a NaN else returns false.
+Q-3==>What is negative Infinity?
+Ans..
+    NEGATIVE_INFINITY is a special numeric value that is returned when an arithmetic operation or mathematical function 
+    generates a negative value greater than the largest representable number in JavaScript
+     (i.e., more negative than -Number. MAX_VALUE) . JavaScript displays the NEGATIVE_INFINITY value as -Infinity .
 
 
-Q•3=> What is negative Infinity?
-Ans=> NEGATIVE_INFINITY is a special numeric value that is returned when an arithmetic operation or mathematical function generates a negative value greater than the largest representable number in JavaScript (i.e., more negative than -Number).
+Q-4==>Which company developed JavaScript? 
+Ans..
+    Netscape Communications
+    JavaScript was created at Netscape Communications by Brendan Eich in 1995.
+    Netscape and Eich designed JavaScript as a scripting language for use with the company's flagship web browser, Netscape Navigator.
 
 
-Q•4=> Which company developed JavaScript?
-Ans=> JavaScript was created at Netscape Communications by Brendan Eich in 1995. Netscape and Eich designed JavaScript as a scripting language for use with the company's flagship web browser, Netscape Navigator.
+Q-5==> What are undeclared and undefined variables? 
+Ans..
+    Undeclared variables are those that have not been declared or defined in the current scope,
+     while undefined variables are those that have been declared but not given a value. 
+     Understanding the difference between these two terms is crucial for writing correct and effective JavaScript code.
 
 
-Q•5=> What are undeclared and undefined variables? 
-Ans=> Undefined: It occurs when a variable has been declared but has not been assigned any value. Undefined is not a keyword. Undeclared: It occurs when we try to access any variable that is not initialized or declared earlier using the var or const keyword.
+Q-6==>Write the code for adding new elements dynamically?
+Ans..
+    To add a new element to the HTML DOM, you must create the element (element node) first, and then append it to an existing element.
+Syntax: 
+    document. createElement("<tagName>"); // Where <tagName> can be any HTML // tagName like div, ul, button, etc. // newDiv element has been created For Eg: let newDiv = document. createElement("div");
+
+Q-7==> What is the difference between ViewState and SessionState? 
+Ans..
+    The basic difference between these two is that the ViewState is to manage state at the client's end,
+     making state management easy for end-user while SessionState manages state at the server's end, 
+     making it easy to manage content from this end too. ViewState: It is maintained at only one level that is page-level.
 
 
-Q•6=> Write the code for adding new elements dynamically? 
-Ans=> New elements can be dynamically created in JavaScript with the help of createElement() method.
-   syntax - document. createElement("<tagName>");
+Q-8==> What is === operator? 
+Ans..
+    The strict equality ( === ) operator checks whether its two operands are equal,
+     returning a Boolean result. Unlike the equality operator, the strict equality 
+     operator always considers operands of different types to be different.
 
 
-Q•7=> What is the difference between ViewState and SessionState?
-Ans=> ViewState :- View state can only be visible from a single page and not multiple pages And ViewState values are lost/cleared when new page is loaded.
-   SessionState :- Session state value availability is across all pages available in a user session And SessionState can be cleared by programmer or user or in case of timeouts.
+Q-9==>  How can the style/class of an element be changed? 
+Ans..
+    You can use the below-mentioned methods to add classes, remove classes, and toggle between different classes respectively.
+    1. The add() method: It adds one or more classes.
+    2. The remove() method: It removes one or more classes.
+    3. The toggle() method: If the class does not exist it adds it and returns true.
 
 
-Q•8=> What is === operator? 
-Ans=> The strict equality ( === ) operator checks whether its two operands are equal, returning a Boolean result.
+Q-10==>How to read and write a file using JavaScript?
+Ans..
+    1. file=fopen(getScriptPath(),0); The function fread() is used for reading the file content.
+    2. str = fread(file,flength(file) ; The function fwrite() is used to write the contents to the file.
+    3. file = fopen("c:\MyFile.txt", 3);// opens the file for writing.
 
 
-Q•9=> How can the style/class of an element be changed? 
-Ans=> The Style/Class of an element changed by Add() , Remove() , Toggle() methods.
+Q-11==>What are all the looping structures in JavaScript?
+Ans.. 
+    for/in - loops through the properties of an    object. for/of - loops through the values of an iterable object. while - loops through a block of code while a specified condition is true. do/while - also loops through a block of code while a specified condition is true.
+    
+Types:
+1. for / for in / for of / for each
+2. while
+3. do while
+4. nested loop
+
+***for loop***
+Syntax:
+for(intialization;condition; inc/dec)
+{
+    ...code;
+}
+***for in***
+for(anyThing in varname)
+     {
+         ..code;
+     }
+ ***for in***
+ for(anyThing of varname)
+      {
+          ..code;
+      }
+***for each***
+    varName.forEach(functionName);
+
+***while loop***
+Syntax:
+while(condition)
+{
+    ...code;
+    inc/dec;
+}
+
+***do while loop***
+Syntax:
+intialization;
+do
+ {
+     ...code;
+     inc/dec;
+ }while(condition);
+
+ ***Nested loop***
+ Syntax:
+ for()
+ {
+    for()
+    {
+    }
+ }
+==> Entry control Loops:
+ 1. for 
+ 2. while 
+==> Exit Control Loop:
+ 1. do while
 
 
-Q•10=> How to read and write a file using JavaScript? 
-Ans=> Files can be read and written by using java script functions – fopen(),fread() and fwrite().
+Q-12==>How can you convert the string of any base to an integer in JavaScript? 
+Ans..
+    To convert a string to an integer parseInt(), Number(), and Unary operator(+) function is used in javascript. parseInt() function returns Nan( not a number) when the string doesn't contain number. If a string with a number is sent, then only that number will be returned as the output. This function won't accept spaces.
 
 
-Q•11=> What are all the looping structures in JavaScript? 
-Ans=> four types of loops :- for loop , while loop , do-while loop , nested loop 
+Q-13==> What is the function of the delete operator?
+Ans..
+    The delete operator removes a property from an object. If the property's value is an object and there are no more references to the object, the object held by that property is eventually released automatically.
+Syntax:
+    delete object.property
+    delete object[property]
 
 
-Q•12=> How can you convert the string of any base to an integer in JavaScript? 
-Ans=> To convert a string to an integer parseInt(), Number(), and Unary operator(+) function is used in javascript.
+Q-14==>What are all the types of Pop up boxes available in JavaScript? 
+Ans..
+    JavaScript has three kind of popup boxes:
+    -> Alert box
+    -> Confirm box
+    -> Prompt box
 
 
-Q•13=> What is the function of the delete operator? 
-Ans=> The delete operator removes a property from an object. If the property's value is an object and there are no more references to the object, the object held by that
-  property is eventually released automatically.
-  Syntax - delete object.property
+Q-15==> What is the use of Void (0)? 
+Ans..
+    In a programming language, void means return nothing. “javascript: void(0)” is similar to void. javascript: void(0) means return undefined as a primitive value. We use this to prevent any negative effects on a webpage when we insert some expression.
 
 
-Q•14=> What are all the types of Pop up boxes available in JavaScript? 
-Ans=> javascript has three kind of Popups boxes: 
-   - Alert
-   - Confirm
-   - Prompt
+Q-16==> How can a page be forced to load another page in JavaScript? 
+Ans..
+    In JavaScript, we can use window.location object to force a page to load another page. We can use the location object to set the URL of a new page. There are different ways – window.location.href property, window.location.assign() and window.location.replace() methods, to set the URL of a new page using the location object. We will discuss each of the property and methods in detail in this tutorial.
+
+Window.location.replace
+    The first way is to use the window.location.href property. This property contains information about the current URL of the page, and it can be used to redirect the user to a new page.
+
+Syntax:
+window.location.href = "new_url";
 
 
-Q•15=> What is the use of Void (0)? 
-Ans=> In a programming language, void means return nothing. “javascript: void(0)” is similar to void. javascript: void(0) means return undefined as a primitive value. We 
-   use this to prevent any negative effects on a webpage when we insert some expression.
-
-
-Q•16=> How can a page be forced to load another page in JavaScript? 
-Ans=> In JavaScript, we can use window. location object to force a page to load another page. We can use the location object to set the URL of a new page.
-
-
-Q•17=> What are the disadvantages of using innerHTML in JavaScript?
-Ans=> It is very slow because as inner HTML already parses the content even we have to parse the content again so that's why it takes time. When we have used the event
-   handlers then the event handlers are not automatically attached to the new elements created by innerHTML.
+Q-17==> What are the disadvantages of using innerHTML in JavaScript? 
+Ans..
+    It is very slow because as inner HTML already parses the content even we have to parse the content again so that's why it takes time. When we have used the event handlers then the event handlers are not automatically attached to the new elements created by innerHTML.
